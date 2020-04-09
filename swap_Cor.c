@@ -1,14 +1,9 @@
 #include "Main.h"
+#include <stdio.h>
 
-int Sum_cal(int *p_Sum){
-
-  if(Sum_count == 5){
-    Sum_count = 0;
-    return 0;
-  }
-  else{
-    *p_Sum += Array[Sum_count++];
-    return Sum_cal(p_Sum);
-  }
-
+void swap_Cor(int *Cor_numA, int *Cor_numB){
+  Cor_com = *Cor_numA;
+  *Cor_numA = *Cor_numB;
+  *Cor_numB = Cor_com;
+  printf("swap_Cor function\nCall by Reference numA : %d\nCall by Reference numB : %d\n\n",*Cor_numA,*Cor_numB);
 }

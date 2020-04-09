@@ -4,15 +4,15 @@
  
 int main(void){
 
-  init_Num();
+  init_Var();
 
-  printf("first Variable state\nNumA : %d\nNumB : %d\n********************\n",numA, numB);
+  printf("first Variable state\nNumA : %d\nNumB : %d\n********************\n",NumA, NumB);
 
-  swap_Cov(numA,numB);
-  printf("Main Function\nCall by Reference NumA : %d\nCall by Reference NumB : %d\n",numA,numB);
+  swap_Cov(NumA,NumB);
+  printf("Main Function\nCall by Value NumA : %d\nCall by value NumB : %d\n\n",NumA,NumB);
   
-  swap_Cor(&numA,&numB);
-  printf("Main Function\nCall by Reference NumA : %d\nCall by Reference NumB : %d\n",numA,numB);
+  swap_Cor(&NumA,&NumB);
+  printf("Main Function\nCall by Reference NumA : %d\nCall by Reference NumB : %d\n\n",NumA,NumB);
   
 
   return 0 ;
