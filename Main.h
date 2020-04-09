@@ -6,6 +6,6 @@
     char name[50];
     char social_num[15];
     int salary_info;
-  };
+  }Employee;
 
 #endif

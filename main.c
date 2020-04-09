@@ -4,7 +4,7 @@
  
 int main(void){
 
-  struct Employee employee1;
+  Employee employee1;
   printf("종업원 이름을 입력해주세요 : ");
   scanf("%s",employee1.name);
   printf("종업원의 주민번호를 입력해주세요 : ");
