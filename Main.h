@@ -1,13 +1,12 @@
 #ifndef _Main_H
 #define _Main_H
   
-  int Max_count;
-  int Min_count;
-  int Sum_count;
-  int Array[5];
-  int Sum_cal(int *p_Sum);
-  int Min_cal(int *p_Min);
-  int Max_cal(int *p_Max);
+  int numA;
+  int numB;
+  int Cov_com;
+  int Cor_com;
   void init_Num(void);
+  int swap_Cov(int Cov_numA, int Cov_numB);
+  int swap_Cor(int *Cor_numA, int *Cor_numB);
 
 #endif

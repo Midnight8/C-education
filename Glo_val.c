@@ -2,7 +2,9 @@
 
 void init_Num(void)
 {
-  Max_count = 0;
-  Min_count = 0;
-  Sum_count = 0;
+  numA = 10;
+  numB = 20;
+  Cov_com = 0;
+  Cor_com = 0;
+  
 }
