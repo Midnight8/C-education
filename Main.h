@@ -3,8 +3,8 @@
   
   typedef struct Employee
   {
-    char name[50];
-    char social_num[15];
+    char * name;
+    char * social_num;
     int salary_info;
   }Employee;
 
