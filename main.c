@@ -18,7 +18,7 @@ int Max = Array[0], Min = Array[0], Sum = 0;
   Sum_cal(&Sum);
  
 
-  printf("배열의 최대값 : %d\n배열의 최솟값 : %d\n배열의 합 : %d\n",Max, Min, Sum);
+  printf("배열의 최대값 : %d\n배열의 최솟값 : %d\n배열의 합 : %d\n ",Max, Min, Sum);
 
   return 0 ;
 }
